@@ -1,0 +1,47 @@
+mpirun -n 8 --oversubscribe -output-filename output.txt python3 script2.py 8 Isabel_1000x1000x200_float32.raw 2 2 2 0.5 opacity_TF.txt color_TF.txt 2>&1 | tee -a output.txt
+
+mpirun -n 8 --oversubscribe -output-filename output.txt python3 script2.py 8 Isabel_1000x1000x200_float32.raw 2 2 2 0.5 opacity_TF.txt color_TF.txt 2>&1 | tee -a output.txt
+
+mpirun -n 16 --oversubscribe -output-filename output.txt python3 script2.py 16 Isabel_1000x1000x200_float32.raw 2 2 4 0.5 opacity_TF.txt color_TF.txt 2>&1 | tee -a output.txt
+
+mpirun -n 16 --oversubscribe -output-filename output.txt python3 script2.py 16 Isabel_1000x1000x200_float32.raw 2 2 4 0.5 opacity_TF.txt color_TF.txt 2>&1 | tee -a output.txt
+
+mpirun -n 32 --oversubscribe -output-filename output.txt python3 script2.py 32 Isabel_1000x1000x200_float32.raw 2 2 8 0.5 opacity_TF.txt color_TF.txt 2>&1 | tee -a output.txt
+
+mpirun -n 32 --oversubscribe -output-filename output.txt python3 script2.py 32 Isabel_1000x1000x200_float32.raw 2 2 8 0.5 opacity_TF.txt color_TF.txt 2>&1 | tee -a output.txt
+
+mpiexec -n 8 --oversubscribe -output-filename output.txt python3 script2.py 8 Isabel_2000x2000x400_float32.raw 2 2 2 0.5 opacity_TF.txt color_TF.txt
+
+mpiexec -n 8 --oversubscribe -output-filename output.txt python3 script2.py 8 Isabel_2000x2000x400_float32.raw 2 2 2 0.5 opacity_TF.txt color_TF.txt
+
+mpiexec -n 16 --oversubscribe -output-filename output.txt python3 script2.py 16 Isabel_2000x2000x400_float32.raw 2 2 4 0.5 opacity_TF.txt color_TF.txt
+
+mpiexec -n 16 --oversubscribe -output-filename output.txt python3 script2.py 16 Isabel_2000x2000x400_float32.raw 2 2 4 0.5 opacity_TF.txt color_TF.txt
+
+mpiexec -n 32 --oversubscribe -output-filename output.txt python3 script2.py 32 Isabel_2000x2000x400_float32.raw 2 2 8 0.5 opacity_TF.txt color_TF.txt
+
+mpiexec -n 32 --oversubscribe -output-filename output.txt python3 script2.py 32 Isabel_2000x2000x400_float32.raw 2 2 8 0.5 opacity_TF.txt color_TF.txt
+
+mpiexec -n 2 --hostfile hostfile -output-filename output.txt python3 script2.py 2 Isabel_1000x1000x200_float32.raw 2 1 1 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 4 --hostfile hostfile -output-filename output.txt python3 script2.py 4 Isabel_1000x1000x200_float32.raw 2 2 1 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 8 --hostfile hostfile -output-filename output.txt python3 script2.py 8 Isabel_1000x1000x200_float32.raw 2 2 2 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 16 --hostfile hostfile -output-filename output.txt python3 script2.py 16 Isabel_1000x1000x200_float32.raw 2 2 4 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 32 --hostfile hostfile -output-filename output.txt python3 script2.py 32 Isabel_1000x1000x200_float32.raw 2 2 8 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 64 --hostfile hostfile -output-filename output.txt python3 script2.py 64 Isabel_1000x1000x200_float32.raw 2 2 16 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 2 --hostfile hostfile -output-filename output.txt python3 script2.py 2 Isabel_2000x2000x400_float32.raw 2 1 1 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 4 --hostfile hostfile -output-filename output.txt python3 script2.py 4 Isabel_2000x2000x400_float32.raw 2 2 1 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 8 --hostfile hostfile -output-filename output.txt python3 script2.py 8 Isabel_2000x2000x400_float32.raw 2 2 2 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 16 --hostfile hostfile -output-filename output.txt python3 script2.py 16 Isabel_2000x2000x400_float32.raw 2 2 4 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 32 --hostfile hostfile -output-filename output.txt python3 script2.py 32 Isabel_2000x2000x400_float32.raw 2 2 8 1 opacity_TF.txt color_TF.txt
+
+mpiexec -n 64 --hostfile hostfile -output-filename output.txt python3 script2.py 64 Isabel_2000x2000x400_float32.raw 2 2 16 1 opacity_TF.txt color_TF.txt

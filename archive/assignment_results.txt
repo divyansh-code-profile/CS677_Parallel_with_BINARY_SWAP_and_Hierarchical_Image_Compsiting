@@ -1,0 +1,193 @@
+small data ->
+1
+Process 1 is running on host csews5 with IP 172.27.19.5
+Process 3 is running on host csews5 with IP 172.27.19.5
+Process 0 is running on host csews5 with IP 172.27.19.5
+starting
+Extracted dimensions from filename: (1000, 1000, 200)
+Reading data from file...
+Data read successfully.
+Process 6 is running on host csews15 with IP 172.27.19.15
+Process 7 is running on host csews15 with IP 172.27.19.15
+Process 4 is running on host csews15 with IP 172.27.19.15
+Process 5 is running on host csews15 with IP 172.27.19.15
+after gather
+Stitching images.
+Final image displayed.
+Total raycasting time: 8.663392066955566
+Total communication time: 0.9821460247039795
+Total computation time: 20.05394148826599
+Total time taken:  21.03608751296997
+
+2
+Process 3 is running on host csews5 with IP 172.27.19.5
+Process 0 is running on host csews5 with IP 172.27.19.5
+starting
+Extracted dimensions from filename: (1000, 1000, 200)
+Reading data from file...
+Process 2 is running on host csews5 with IP 172.27.19.5
+Process 1 is running on host csews5 with IP 172.27.19.5
+Data read successfully.
+Process 5 is running on host csews15 with IP 172.27.19.15
+Process 6 is running on host csews15 with IP 172.27.19.15
+Process 7 is running on host csews15 with IP 172.27.19.15
+Process 4 is running on host csews15 with IP 172.27.19.15
+Process 14 is running on host csews9 with IP 172.27.19.9
+Process 15 is running on host csews9 with IP 172.27.19.9
+Process 12 is running on host csews9 with IP 172.27.19.9
+Process 13 is running on host csews9 with IP 172.27.19.9
+Process 8 is running on host csews12 with IP 172.27.19.12
+Process 9 is running on host csews12 with IP 172.27.19.12
+Process 11 is running on host csews12 with IP 172.27.19.12
+Process 10 is running on host csews12 with IP 172.27.19.12
+after gather
+Stitching images.
+Final image displayed.
+Total raycasting time: 11.965880632400513
+Total communication time: 7.700090646743774
+Total computation time: 12.537457942962646
+Total time taken:  20.23754858970642
+
+3
+Process 0 is running on host csews5 with IP 172.27.19.5
+starting
+Extracted dimensions from filename: (1000, 1000, 200)
+Reading data from file...
+Process 2 is running on host csews5 with IP 172.27.19.5
+Process 1 is running on host csews5 with IP 172.27.19.5
+Process 3 is running on host csews5 with IP 172.27.19.5
+Data read successfully.
+Process 4 is running on host csews15 with IP 172.27.19.15
+Process 5 is running on host csews15 with IP 172.27.19.15
+Process 7 is running on host csews15 with IP 172.27.19.15
+Process 6 is running on host csews15 with IP 172.27.19.15
+Process 12 is running on host csews9 with IP 172.27.19.9
+Process 13 is running on host csews9 with IP 172.27.19.9
+Process 14 is running on host csews9 with IP 172.27.19.9
+Process 15 is running on host csews9 with IP 172.27.19.9
+Process 17 is running on host csews6 with IP 172.27.19.6
+Process 18 is running on host csews6 with IP 172.27.19.6
+Process 19 is running on host csews6 with IP 172.27.19.6
+Process 16 is running on host csews6 with IP 172.27.19.6
+Process 31 is running on host csews11 with IP 172.27.19.11
+Process 29 is running on host csews11 with IP 172.27.19.11
+Process 30 is running on host csews11 with IP 172.27.19.11
+Process 28 is running on host csews11 with IP 172.27.19.11
+Process 8 is running on host csews12 with IP 172.27.19.12
+Process 10 is running on host csews12 with IP 172.27.19.12
+Process 9 is running on host csews12 with IP 172.27.19.12
+Process 11 is running on host csews12 with IP 172.27.19.12
+Process 23 is running on host csews2 with IP 172.27.19.2
+Process 21 is running on host csews2 with IP 172.27.19.2
+Process 22 is running on host csews2 with IP 172.27.19.2
+Process 20 is running on host csews2 with IP 172.27.19.2
+Process 24 is running on host csews1 with IP 172.27.19.1
+Process 25 is running on host csews1 with IP 172.27.19.1
+Process 26 is running on host csews1 with IP 172.27.19.1
+Process 27 is running on host csews1 with IP 172.27.19.1
+after gather
+Stitching images.
+Final image displayed.
+Total raycasting time: 10.038119316101074
+Total communication time: 5.281739711761475
+Total computation time: 17.72608184814453
+Total time taken:  23.007821559906006
+
+large dataset->
+
+1
+Process 0 is running on host csews5 with IP 172.27.19.5
+starting
+Extracted dimensions from filename: (2000, 2000, 400)
+Reading data from file...
+Process 3 is running on host csews5 with IP 172.27.19.5
+Process 2 is running on host csews5 with IP 172.27.19.5
+Process 1 is running on host csews5 with IP 172.27.19.5
+Process 4 is running on host csews15 with IP 172.27.19.15
+Process 5 is running on host csews15 with IP 172.27.19.15
+Process 6 is running on host csews15 with IP 172.27.19.15
+Process 7 is running on host csews15 with IP 172.27.19.15
+Data read successfully.
+after gather
+Stitching images.
+Final image displayed.
+Total raycasting time: 65.62460064888
+Total communication time: 5.318284749984741
+Total computation time: 135.77639985084534
+Total time taken:  141.09468460083008
+
+
+2
+Process 7 is running on host csews15 with IP 172.27.19.15
+Process 5 is running on host csews15 with IP 172.27.19.15
+Process 6 is running on host csews15 with IP 172.27.19.15
+Process 9 is running on host csews12 with IP 172.27.19.12
+Process 10 is running on host csews12 with IP 172.27.19.12
+Process 8 is running on host csews12 with IP 172.27.19.12
+Process 11 is running on host csews12 with IP 172.27.19.12
+Process 13 is running on host csews1 with IP 172.27.19.1
+Process 12 is running on host csews1 with IP 172.27.19.1
+Process 15 is running on host csews1 with IP 172.27.19.1
+Process 14 is running on host csews1 with IP 172.27.19.1
+Process 3 is running on host csews5 with IP 172.27.19.5
+Process 1 is running on host csews5 with IP 172.27.19.5
+Process 0 is running on host csews5 with IP 172.27.19.5
+starting
+Extracted dimensions from filename: (2000, 2000, 400)
+Reading data from file...
+Process 2 is running on host csews5 with IP 172.27.19.5
+Data read successfully.
+after gather
+Stitching images.
+Final image displayed.
+Total raycasting time: 29.213222980499268
+Total communication time: 4.113537311553955
+Total computation time: 100.01950454711914
+Total time taken:  104.1330418586731
+
+
+3
+Process 1 is running on host csews5 with IP 172.27.19.5
+Process 3 is running on host csews5 with IP 172.27.19.5
+Process 0 is running on host csews5 with IP 172.27.19.5
+starting
+Extracted dimensions from filename: (2000, 2000, 400)
+Reading data from file...
+Process 2 is running on host csews5 with IP 172.27.19.5
+Process 7 is running on host csews15 with IP 172.27.19.15
+Process 4 is running on host csews15 with IP 172.27.19.15
+Process 5 is running on host csews15 with IP 172.27.19.15
+Process 6 is running on host csews15 with IP 172.27.19.15
+Process 21 is running on host csews3 with IP 172.27.19.3
+Process 19 is running on host csews6 with IP 172.27.19.6
+Process 22 is running on host csews3 with IP 172.27.19.3
+Process 23 is running on host csews3 with IP 172.27.19.3
+Process 20 is running on host csews3 with IP 172.27.19.3
+Process 16 is running on host csews6 with IP 172.27.19.6
+Process 17 is running on host csews6 with IP 172.27.19.6
+Process 18 is running on host csews6 with IP 172.27.19.6
+Process 15 is running on host csews1 with IP 172.27.19.1
+Process 12 is running on host csews1 with IP 172.27.19.1
+Process 14 is running on host csews1 with IP 172.27.19.1
+Process 13 is running on host csews1 with IP 172.27.19.1
+Process 8 is running on host csews12 with IP 172.27.19.12
+Process 28 is running on host csews9 with IP 172.27.19.9
+Process 11 is running on host csews12 with IP 172.27.19.12
+Process 9 is running on host csews12 with IP 172.27.19.12
+Process 31 is running on host csews9 with IP 172.27.19.9
+Process 29 is running on host csews9 with IP 172.27.19.9
+Process 10 is running on host csews12 with IP 172.27.19.12
+Process 30 is running on host csews9 with IP 172.27.19.9
+Process 24 is running on host csews11 with IP 172.27.19.11
+Process 25 is running on host csews11 with IP 172.27.19.11
+Process 26 is running on host csews11 with IP 172.27.19.11
+Process 27 is running on host csews11 with IP 172.27.19.11
+Data read successfully.
+after gather
+Stitching images.
+Final image displayed.
+Total raycasting time: 61.60342311859131
+Total communication time: 45.65220928192139
+Total computation time: 89.98205924034119
+Total time taken:  135.63426852226257
+
